@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<style>
+			h1{
+				text-align: center;
+				font-family: arial;
+			  }
+			  
+			h2{
+				text-align: center;
+				font-family: arial;
+			  } 
+		
+			div{
+					text-align: center;
+					font-family: arial;
+				}
+            p{
+                text-align: center;
+            }
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1>
+				BOOKING SERVICE FOR AYERBAZAHD AIRLINES
+			</h1>
+			<h2>
+				Passenger and Flight details: 
+			</h2>
+		</div>
+			<div>
+				First Name: <input type="text" id="fname" name="fname">
+					<br>
+				Last Name: <input type="text" id="lname" name="lname">
+			</div>
+			<div>
+				<label for="gender">Gender:</label>
+
+				<select id="gender">
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+					<option value="Prefer not to say">Prefer not to say</option>
+				</select>
+			</div>
+			<div>
+				Email Address: <input type="text" id="email" placeholder="example@email.com" name="email"><br>
+			</div>
+			<div>
+				Origin: <input type="text" id="origin" name="origin">
+			</div>
+			<div>
+				Destination: <input type="text" id="destination" name="destination">
+			</div>
+			<div>
+				<label for="Departure">Departure date: </label>
+				<input type="date" id="departure" name="departure">
+					<br><br>
+				<label for="returning">Return date: </label>
+				<input type="date" id="returning" name="return">
+			</div>
+			<div>
+				<button type="button" onclick="booking()">SUBMIT</button>
+			</div>
+				<p id="1"></p>
+				<p id="2"></p>
+				<p id="3"></p>
+				<p id="4"></p>
+				<p id="5"></p>
+				<p id="6"></p>
+				<p id="7"></p>
+				<p id="8"></p>
+			<script src="booking.js">
+			</script>
+
+	</body>
+</html>
